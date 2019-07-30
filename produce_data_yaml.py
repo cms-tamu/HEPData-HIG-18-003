@@ -202,8 +202,7 @@ x_data = [
    8.37625,
    8.4175,
    8.45875,
-   8.5
-]
+   8.5]
 
 y_data = [
    0.1477041,
@@ -406,30 +405,16 @@ y_data = [
    0.1477041,
    0.1477041,
    0.1477041,
-   0.1477041
-    ]
+   0.1477041]
 
 ## print functions
-prev_entry = 1
-first = True
-iCount = 0
-
 for entry in x_data:
-    low = prev_entry
-    high = entry
-    if not first:
-        iCount += 1
-        #print(iCount)
-        print("  - {{low: {0}, high: {1}}}".format(low, high))
-    prev_entry = entry
-    first = False
+    print("  - {{value: {0}}}".format(entry))
+print()
 
-iCount = 0
 for entry in y_data:
-    iCount += 1
-    #print(iCount)
-    print("  - value: {0}".format(entry))
-
+    print("  - {{value: {0}}}".format(entry))
+print()
 
 ## the data for table 5
 x_data = [
@@ -633,8 +618,7 @@ x_data = [
    8.37625,
    8.4175,
    8.45875,
-   8.5
-]
+   8.5]
 
 y_data = [
    0.1149413,
@@ -836,26 +820,16 @@ y_data = [
    0.1149413,
    0.1149413,
    0.1149413,
-   0.1149413
-    ]
+   0.1149413,
+   0.1149413]
+
 
 ## print functions
-prev_entry = 1
-first = True
-iCount = 0
-
 for entry in x_data:
-    low = prev_entry
-    high = entry
-    if not first:
-        iCount += 1
-        #print(iCount)
-        print("  - {{low: {0}, high: {1}}}".format(low, high))
-    prev_entry = entry
-    first = False
+    print("  - {{value: {0}}}".format(entry))
+print()
 
-iCount = 0
 for entry in y_data:
-    iCount += 1
-    #print(iCount)
-    print("  - value: {0}".format(entry))
+    print("  - {{value: {0}}}".format(entry))
+print()
+
