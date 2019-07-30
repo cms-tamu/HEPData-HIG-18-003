@@ -202,7 +202,7 @@ independent_variables:
   - {low: 8.4175, high: 8.45875}
   - {low: 8.45875, high: 8.5}
 dependent_variables:
-- header: {name: SIG, units: FB**-1}
+- header: {name: 95% CL Limit on SIG * BR, units: FB**-1}
   qualifiers:
   - {name: value: }
   - {name: units: value: }
