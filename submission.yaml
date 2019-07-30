@@ -35,7 +35,7 @@ name: "Table 3"
 location: Data from Page 8 of preprint
 description: The cross section times branching ratio
 keywords:
-  - {name: reactions, values: [P P --> 2 H --> 2 NEUTRAL --> MU+ MU- MU+ MU-]}
+  - {name: reactions, values: [P P --> H --> 2 NEUTRAL --> MU+ MU- MU+ MU-]}
   - {name: observables, values: [SIG]}
   - {name: cmenergies, values: [13000]} # centre-of-mass energy in GeV
   - {name: phrases, values: [NMSSM cross section versus Higgs boson mass, Proton-Proton Scattering]}
@@ -49,7 +49,7 @@ name: "Table 4"
 location: Data from Page 8 of preprint
 description: The cross section times branching ratio
 keywords:
-  - {name: reactions, values: [P P --> 2 H --> 2 NEUTRAL --> MU+ MU- MU+ MU-]}
+  - {name: reactions, values: [P P --> H --> 2 NEUTRAL --> MU+ MU- MU+ MU-]}
   - {name: observables, values: [SIG]}
   - {name: cmenergies, values: [13000]} # centre-of-mass energy in GeV
   - {name: phrases, values: [NMSSM cross section versus light boson mass, Proton-Proton Scattering]}
@@ -63,7 +63,7 @@ name: "Table 5"
 location: Data from Page 8 of preprint
 description: The cross section times branching ratio
 keywords:
-  - {name: reactions, values: [P P --> 2 H --> 2 NEUTRAL --> MU+ MU- MU+ MU-]}
+  - {name: reactions, values: [P P --> H --> 2 NEUTRAL --> MU+ MU- MU+ MU-]}
   - {name: observables, values: [SIG]}
   - {name: cmenergies, values: [13000]} # centre-of-mass energy in GeV
   - {name: phrases, values: [MSSMD cross section, Proton-Proton Scattering]}
@@ -77,7 +77,7 @@ name: "Table 6"
 location: Data from Page 8 of preprint
 description: The cross section times branching ratio
 keywords:
-  - {name: reactions, values: [P P --> 2 H --> 2 NEUTRAL --> MU+ MU- MU+ MU-]}
+  - {name: reactions, values: [P P --> H --> 2 NEUTRAL --> MU+ MU- MU+ MU-]}
   - {name: observables, values: [SIG]}
   - {name: cmenergies, values: [13000]} # centre-of-mass energy in GeV
   - {name: phrases, values: [MSSMD cross section, Proton-Proton Scattering]}
@@ -91,7 +91,7 @@ name: "Table 7"
 location: Data from Page 8 of preprint
 description: The cross section times branching ratio
 keywords:
-  - {name: reactions, values: [P P --> 2 H --> 2 NEUTRAL --> MU+ MU- MU+ MU-]}
+  - {name: reactions, values: [P P --> H --> 2 NEUTRAL --> MU+ MU- MU+ MU-]}
   - {name: observables, values: [SIG]}
   - {name: cmenergies, values: [13000]} # centre-of-mass energy in GeV
   - {name: phrases, values: [MSSMD cross section, Proton-Proton Scattering]}
@@ -99,3 +99,59 @@ data_file: data7.yaml
 additional_resources:
 - {description: Image file, location: Thumb_Fig2b.png}
 - {description: Thumbnail image file, location: Thumb_Fig2b.png}
+---
+# This is Table 8.
+name: "Table 8"
+location: Data from Page 8 of preprint
+description: The cross section times branching ratio
+keywords:
+  - {name: reactions, values: [P P --> H --> 2 NEUTRALINO --> 2 NEUTRAL 2 LONGLIVED --> 2 NEUTRAL --> MU+ MU- MU+ MU-]}
+  - {name: observables, values: [SIG]}
+  - {name: cmenergies, values: [13000]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [MSSMD cross section, Proton-Proton Scattering]}
+data_file: data8.yaml
+additional_resources:
+- {description: Image file, location: Thumb_Fig3.png}
+- {description: Thumbnail image file, location: Thumb_Fig3.png}
+---
+# This is Table 9.
+name: "Table 9"
+location: Data from Page 9 of preprint
+description: The cross section times branching ratio
+keywords:
+  - {name: reactions, values: [P P --> H --> 2 NEUTRALINO --> 2 NEUTRAL 2 LONGLIVED --> 2 NEUTRAL --> MU+ MU- MU+ MU-]}
+  - {name: observables, values: [SIG]}
+  - {name: cmenergies, values: [13000]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [MSSMD cross section, Proton-Proton Scattering]}
+data_file: data9.yaml
+additional_resources:
+- {description: Image file, location: Thumb_Fig3.png}
+- {description: Thumbnail image file, location: Thumb_Fig3.png}
+---
+# This is Table 10.
+name: "Table 10"
+location: Data from Page 10 of preprint
+description: The cross section times branching ratio
+keywords:
+  - {name: reactions, values: [P P --> H --> 2 NEUTRALINO --> 2 NEUTRAL 2 LONGLIVED --> 2 NEUTRAL --> MU+ MU- MU+ MU-]}
+  - {name: observables, values: [SIG]}
+  - {name: cmenergies, values: [13000]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [MSSMD cross section, Proton-Proton Scattering]}
+data_file: data10.yaml
+additional_resources:
+- {description: Image file, location: Thumb_Fig3.png}
+- {description: Thumbnail image file, location: Thumb_Fig3.png}
+---
+# This is Table 11.
+name: "Table 11"
+location: Data from Page 11 of preprint
+description: The cross section times branching ratio
+keywords:
+  - {name: reactions, values: [P P --> H --> 2 NEUTRALINO --> 2 NEUTRAL 2 LONGLIVED --> 2 NEUTRAL --> MU+ MU- MU+ MU-]}
+  - {name: observables, values: [SIG]}
+  - {name: cmenergies, values: [13000]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [MSSMD cross section, Proton-Proton Scattering]}
+data_file: data11.yaml
+additional_resources:
+- {description: Image file, location: Thumb_Fig3.png}
+- {description: Thumbnail image file, location: Thumb_Fig3.png}
