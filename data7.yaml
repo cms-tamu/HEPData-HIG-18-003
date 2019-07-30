@@ -26,7 +26,7 @@ independent_variables:
 dependent_variables:
 - header: {name: 95% CL Limit on SIG * BR, units: FB**-1}
   qualifiers:
-  - {name: Higgs boson mass units: GEV value: 150}
+  - {name: Higgs boson mass, units: GEV, value: 150}
   values:
   - {value: 0.3101278}
   - {value: 0.4380931}
