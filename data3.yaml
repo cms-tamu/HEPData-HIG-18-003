@@ -1,0 +1,18 @@
+independent_variables:
+- header: {name: Higgs boson mass, units: GEV}
+  values:
+  - {value: 90}
+  - {value: 100}
+  - {value: 110}
+  - {value: 125}
+  - {value: 150}
+dependent_variables:
+- header: {name: 95% CL Limit on SIG * BR, units: FB**-1}
+  qualifiers:
+  - {name: Light boson mass 3.55 GEV units: GEV value: }
+  values:
+  - {value: 1.043924}
+  - {value: 0.8640231}
+  - {value: 0.7590178}
+  - {value: 0.6618791}
+  - {value: 0.5524776}
