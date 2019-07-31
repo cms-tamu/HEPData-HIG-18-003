@@ -18,7 +18,7 @@ additional_resources:
 ---
 # This is Table 2.
 name: "Table 2"
-locationyyp: Additional material; 90% CL model independent upper limit
+location: Additional material; 90% CL model independent upper limit
 description: The cross section times branching ratio
 keywords:
   - {name: reactions, values: [P P --> 2 NEUTRAL --> MU+ MU- MU+ MU-]}
