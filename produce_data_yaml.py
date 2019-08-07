@@ -949,3 +949,12 @@ print()
 for entry in y3_data:
     print("  - {{value: {0}}}".format(entry))
 print()
+
+## data for dark SUSY interpretation
+with open('CMS_BR_40.v2.dat') as f:
+    for line in f:
+        splitline = line.split()
+        xvalue = splitline[0]
+        yvalue = splitline[1]
+        #print("  - {{value: {0}}}".format(xvalue))
+        print("  - {{value: {0}}}".format(yvalue))
