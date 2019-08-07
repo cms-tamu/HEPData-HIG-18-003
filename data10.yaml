@@ -131,9 +131,9 @@ independent_variables:
   - {value: 8.350000000000001}
   - {value: 8.45}
 dependent_variables:
-- header: {name: 95% CL Limit on SIG * BR, units: FB**-1}
+- header: {name: 90% CL Limit on kinetic mixing parameter epsilon, units: }
   qualifiers:
-  - {name: Higgs boson mass units: GEV value: 150}
+  - {name: Effective branching ratio units: value: 0.1}
   values:
   - {value: 2.9512092266663418e-6}
   - {value: 2.187761623949534e-6}
