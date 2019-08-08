@@ -204,9 +204,6 @@ independent_variables:
   - {value: 8.5}
 dependent_variables:
 - header: {name: 95% CL Limit on SIG * BR, units: FB**-1}
-  qualifiers:
-  - {name: ,value: }
-  - {name: ,units:, value: }
   values:
   - {value: 0.1477041}
   - {value: 0.1477041}
