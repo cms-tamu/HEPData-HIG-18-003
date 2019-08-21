@@ -5,7 +5,7 @@
 # This is Table 1.
 name: "Table 1"
 location: Data from Page 7 of preprint
-description: The model independent cross section times branching ratio
+description: The model independent cross section times branching ratio times acceptance
 keywords:
   - {name: reactions, values: [P P --> 2 NEUTRAL --> MU+ MU- MU+ MU-]}
   - {name: observables, values: [SIG]}
@@ -18,7 +18,7 @@ additional_resources:
 ---
 # This is Table 2.
 name: "Table 2"
-location: Additional material; 90% CL model independent upper limit
+location: Additional material; 90% CL model independent upper limit times acceptance
 description: The cross section times branching ratio
 keywords:
   - {name: reactions, values: [P P --> 2 NEUTRAL --> MU+ MU- MU+ MU-]}
