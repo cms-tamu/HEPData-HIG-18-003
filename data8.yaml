@@ -131,9 +131,9 @@ independent_variables:
   - {value: 8.350000000000001}
   - {value: 8.45}
 dependent_variables:
-- header: {name: 90% CL Limit on kinetic mixing parameter epsilon, units: }
+- header: {name: 90% CL Limit on kinetic mixing parameter epsilon}
   qualifiers:
-  - {name: Effective branching ratio units: value: 0.001}
+  - {name: Effective branching ratio ,value: 0.001}
   values:
   - {value: 9.999999999999755e-6}
   - {value: 9.33254300796981e-6}
