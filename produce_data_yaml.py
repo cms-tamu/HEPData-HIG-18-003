@@ -408,6 +408,7 @@ y_data = [
    0.1477041]
 
 ## print functions
+"""
 for entry in x_data:
     print("  - {{value: {0}}}".format(entry))
 print()
@@ -415,6 +416,7 @@ print()
 for entry in y_data:
     print("  - {{value: {0}}}".format(entry))
 print()
+"""
 
 ## the data for table 2
 x_data = [
@@ -825,6 +827,7 @@ y_data = [
 
 
 ## print functions
+"""
 for entry in x_data:
     print("  - {{value: {0}}}".format(entry))
 print()
@@ -832,6 +835,7 @@ print()
 for entry in y_data:
     print("  - {{value: {0}}}".format(entry))
 print()
+"""
 
 ## data for table 5-6-7
 x_data = [
@@ -933,7 +937,7 @@ y3_data = [
    0.7659538,
    0.5524776
     ]
-
+"""
 for entry in x_data:
     print("  - {{value: {0}}}".format(entry))
 print()
@@ -948,6 +952,7 @@ print()
 
 for entry in y3_data:
     print("  - {{value: {0}}}".format(entry))
+"""
 print()
 
 ## data for dark SUSY interpretation
@@ -955,6 +960,9 @@ with open('CMS_BR_40.v2.dat') as f:
     for line in f:
         splitline = line.split()
         xvalue = splitline[0]
+        print("  - {{value: {0}}}".format(xvalue))
+with open('CMS_BR_40.v2.dat') as f:
+    for line in f:
+        splitline = line.split()
         yvalue = splitline[1]
-        #print("  - {{value: {0}}}".format(xvalue))
         print("  - {{value: {0}}}".format(yvalue))

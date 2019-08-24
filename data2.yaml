@@ -203,10 +203,7 @@ independent_variables:
   - {value: 8.45875}
   - {value: 8.5}
 dependent_variables:
-- header: {name: 90% CL Limit on SIG * BR, units: FB**-1}
-  qualifiers:
-  - {name:, value: }
-  - {name:, units:, value: }
+- header: {name: 90% CL Limit on SIG * BR * ACC, units: FB}
   values:
   - {value: 0.1149413}
   - {value: 0.1149413}
